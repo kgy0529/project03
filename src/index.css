@@ -1,0 +1,58 @@
+/* Palanquin 폰트 */
+@font-face{
+    font-family: "Palanquin", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    src: url(./fonts/Palanquin-Thin.ttf);
+}
+@font-face{
+    font-family: "Palanquin", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    src: url(./fonts/Palanquin-ExtraLight.ttf);
+}
+@font-face{
+  font-family: "Palanquin", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  src: url(./fonts/Palanquin-Light.ttf);
+}
+@font-face{
+  font-family: "Palanquin", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url(./fonts/Palanquin-Regular.ttf);
+}
+@font-face{
+  font-family: "Palanquin", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  src: url(./fonts/Palanquin-Medium.ttf);
+}
+@font-face{
+  font-family: "Palanquin", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  src: url(./fonts/Palanquin-SemiBold.ttf);
+}
+@font-face{
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: url(./fonts/Palanquin-Bold.ttf);
+}
+
+body {
+  font-family:'Palanquin', 'Pretendard Variable', sans-serif  ;
+  line-height: 1.5; color: #161616;
+  /* background: powderblue; */
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
